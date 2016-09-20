@@ -44,7 +44,7 @@
 (require 'smartparens-config)
 (add-hook 'emacs-lisp-mode-hook 'smartparens-global-mode)
 (setq cursor-type 'bar)
-
+;;(setq helm-adaptive-history nil)
 ;; 关闭缩进 (第二天中被去除)
 ;; (electric-indent-mode -1)
 (delete-selection-mode 1)
