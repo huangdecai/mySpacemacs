@@ -31,7 +31,11 @@
 
 (defconst hdc-packages
   '(
+    
     company
+    ;yasnippet
+    ac-clang
+    msvc
     )
   )
 
@@ -39,4 +43,11 @@
   (setq company-minimum-prefix-length 1)
   )
 
+(defun hdc/init-msvc ()
+  (use-package msvc)
+  )
+
+(defun hdc/init-ac-clang ()
+  (use-package ac-clang)
+  )
 ;;; packages.el ends here
